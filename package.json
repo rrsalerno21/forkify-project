@@ -1,0 +1,28 @@
+{
+  "name": "forkify-project",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrsalerno21/forkify-project.git"
+  },
+  "author": "Rocky Salerno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrsalerno21/forkify-project/issues"
+  },
+  "homepage": "https://github.com/rrsalerno21/forkify-project#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}
